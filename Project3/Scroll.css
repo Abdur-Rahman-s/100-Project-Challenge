@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    background-color: crimson;
+}
+
+.Container {
+    border: 2px solid #fff;
+    margin:  10px 100px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: 0.5s;
+    /* color:; */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 100px;
+    background:linear-gradient( #77CDFF , #FFF100);
+}
